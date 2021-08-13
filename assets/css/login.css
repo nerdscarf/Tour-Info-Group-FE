@@ -109,107 +109,89 @@ section {
   padding: 20px 0;
 }
 
-/*----------------------- SIGN UP CONTAINER --------------------------*/
+/*----------------------- LOG IN CONTAINER --------------------------*/
 
-.tealbg {
+.signupcontainer {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vmax;
+  padding-block: 5rem;
   align-items: center;
-  justify-content: center;
-  background-color: var(--teal);
-  width: 80vw;
-  min-height: 50vh;
-  margin: 2rem;
-  padding: 5rem 0 10rem 0;
 }
 
-.logincontainer {
+.signupcontainer a {
+  color: var(--purple);
+  text-align: left;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+span {
+  font-size: small;
+  padding: 0 .5rem;
+}
+
+.googlesignin {
   display: flex;
-  flex-direction: column;
-  background-color:var(--white);
-  padding: 3rem 0;
-  width: 50vw;
-  border-radius: 1rem;
-  box-shadow: 0px 7px 5px var(--mediumgray);
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 0;
 }
 
-.logincontainer img {
-  width: 15rem;
-  justify-content: center;
-  margin-bottom:1rem;
+.googlesignin i {
+  padding-right: 1.5rem;
 }
 
-.logincontainer p {
-  text-align: center;
-  font-size: larger;
-}
-
-.formcontainer {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+.googlesignin p {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #63a7ff;
 }
 
 form {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
+  width: 60%;
   justify-content: center;
-  width: 50%;
-  padding-top: 1rem; */
 }
 
-form h3 {
-  text-align: left;
+label {
+  padding-top: 1rem;
 }
 
 input[type=text] {
   padding: 12px 20px;
-  background-color: rgb(245, 245, 245);
-  border: 2px solid #cbcbcb;
+  background-color: var(--lightgray);
+  border: 2px solid var(--mediumgray);
   border-radius: 4px;
-  width: 80%;
+}
+
+.userinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 1rem;
+}
+
+input[type=checkbox] {
+  color: pink;
+  background-color: plum;
 }
 
 input[type=submit] {
   background-color: var(--purple);
   color: var(--white);
   text-align: center;
-  margin: 20px 0;
   padding: 10px 45px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  cursor: pointer;
-  width: 90%;
-}
-
-.forgotpw {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 50vw;
 }
 
 
-.forgotpw {
-  margin-top: 2rem;
-}
-.forgotpw p {
-  font-weight: bold;
-}
 
-.fpw-right {
-  display: flex;
-  flex-direction: row;
-}
-
-.forgotpw span {
-  font-weight: bold;
-  color: var(--white);
-  text-align: right;
-  padding-right: .4rem;
-}
 /*----------------------- SOCIAL AND NEWSLETTER SECTION START ------------------------------*/
 
 .prefooter {
